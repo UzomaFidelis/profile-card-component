@@ -13,9 +13,8 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    /* background-image: url('../images/bg-pattern-top.svg'); */
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
-    background-position: -300px -250px, 200px 350px;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-size: 500px 500px, 500px 500px;
     background-repeat: no-repeat, no-repeat;
     background-color: var(--darkcyan);
@@ -49,11 +48,12 @@ div.card-bottom>p, #age, .stat-label {
 
 
 .card-body{
-    margin: 100px auto;
+    margin: 150px auto 100px;
     border: transparent;
     width: 330px;
     position: relative;
     box-shadow: 0 30px 30px 20px rgba(51, 63, 63, 0.1);
+    
 }
 
 .card-top {
@@ -109,10 +109,17 @@ div.card-bottom>p, #age, .stat-label {
     margin: 0 auto 10px;
 }
 
+@media (min-width: 600px) and (max-width:1439px){
+    body{
+        background-size: 700px 700px, 700px 700px;
+    }
+}
+    
+
+
 @media only screen and (min-width: 1440px) {
     body {
         background-size: 900px 900px, 900px 900px;
-        background-position: -180px -500px, 700px 300px;
     }
 }
     
