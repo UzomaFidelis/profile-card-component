@@ -109,16 +109,8 @@ div.card-bottom>p, #age, .stat-label {
     margin: 0 auto 10px;
 }
 
-@media (min-width: 600px) and (max-width:1439px){
+@media (min-width: 600px){
     body{
-        background-size: 700px 700px, 700px 700px;
-    }
-}
-    
-
-
-@media only screen and (min-width: 1440px) {
-    body {
         background-size: 900px 900px, 900px 900px;
     }
 }
